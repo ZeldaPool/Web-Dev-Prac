@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Trial</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<label for="f">First Name:</label>
+		<input id="f" type="text" name="FName" placeholder="John" required>
+		
+		<label for="l">Last Name:
+		<input id="l" type="text" name="Lname" placeholder="Smith" required>
+		</label>
+	<p>
+		<label for="m">Male		</label>
+			<input id="m" type="radio" name="Gender">
+
+		<label for="f">Female</label>
+			<input id = "f" type="radio" name="Gender">
+		
+		<label for="o">Other</label>
+			<input id="o" type="radio" name="Gender">
+		
+	</p>
+
+	<p>
+		<label for="e">Email:</label>
+			<input type="email" name="email" id="e" required placeholder="your email">
+		
+		<label for="p">Password</label>
+			<input type="password" name="password" id="p" required title="5 to 10 Chars" pattern=".{5,10}" placeholder="your password">
+		
+	</p>
+
+	<p>
+		
+		<label for="b">Birthday:</label>
+			<select id="b" name="Month">
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+			<option>Apr</option>
+			</select>
+
+			<select name="Date">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			</select>
+			
+
+			<select name="Year">
+			<option>98</option>
+			<option>99</option>
+			<option>00</option>
+			<option>01</option>
+			</select>
+		
+	</p>
+
+	<p>
+		<label for="c"></label>
+			I agree to the terms and conditions
+			<input id="c" type="checkbox" name="box">
+		
+	</p>
+
+	<p>
+		<input type="Submit" name="submit">
+	</p>
+
+	</form>
+
+</body>
+</html>
